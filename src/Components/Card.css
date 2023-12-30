@@ -1,0 +1,126 @@
+.cardholder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 26rem;
+  height: 32rem;
+  position: relative;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  background: white;
+  padding: 2rem;
+  border-radius: 2rem;
+  transition: all 0.3s ease-in-out;
+  background: rgba(255, 255, 255, 0.21);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(4.7px);
+  -webkit-backdrop-filter: blur(4.7px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.cardholder:hover {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+
+  background: rgba(255, 255, 255, 0.86);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(12.5px);
+  -webkit-backdrop-filter: blur(12.5px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+.card-heading img {
+  width: 40%;
+  height: 60%;
+  border-radius: 10%;
+
+  align-self: flex-start;
+
+  background: #c4c7c8;
+}
+
+.card-heading {
+  width: 100%;
+  height: 50%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 2rem;
+}
+
+.card-heading .card-text {
+  color: #c4c7c8;
+}
+
+.card-heading .card-title {
+  font-size: 1.3rem;
+}
+
+.iconTray {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 2rem;
+  margin-top: 20px;
+  gap: 1rem;
+  width: 100%;
+}
+
+.iconTray i {
+  background: #e0e2e3;
+  border-radius: 50%;
+  padding: 0.5rem;
+  color: #a8a8a8;
+}
+
+.line {
+  width: 100%;
+  border-color: #acacac;
+}
+
+.card-details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-weight: 600;
+}
+
+.card-details h5 {
+  color: #b3b5c0;
+}
+
+.customAccordion {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  display: flex;
+}
+
+.customAccordion1 {
+  position: absolute;
+  top: 5rem;
+  right: 1rem;
+}
+.customAccordion1 > .accordion-button {
+  font-size: 1rem;
+}
+
+/* Add this CSS to your Card.css or a separate stylesheet */
+.accordion-button:not(.collapsed)::after,
+.accordion-button::after {
+  background-image: unset !important;
+  width: 0 !important;
+  height: 0 !important;
+}
+.accordion-item {
+  background: rgba(255, 255, 255, 0.86) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(12.5px) !important;
+  -webkit-backdrop-filter: blur(12.5px) !important;
+  border: 1px solid rgba(255, 255, 255, 0.15) !important;
+}

@@ -1,0 +1,17 @@
+.mainHeading {
+  text-align: center;
+
+  font-size: 3rem;
+}
+
+.App {
+  background: rgb(238, 190, 196);
+  background: linear-gradient(
+    97deg,
+    rgba(238, 190, 196, 1) 0%,
+    rgba(255, 175, 173, 1) 47%,
+    rgba(246, 179, 147, 1) 100%
+  );
+  margin: none;
+  padding: 3rem;
+}
